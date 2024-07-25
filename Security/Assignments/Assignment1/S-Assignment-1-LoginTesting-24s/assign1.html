@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment #1 Login</title>
+	<link rel="stylesheet" href="assign1.css" type="text/css">
+
+	<!--Encryption Library-->
+	<script src="jasmine-standalone-5.1.2/lib/md5.js"></script>
+    <!-- Function Source files -->
+    <script src="jasmine-standalone-5.1.2/src/md5Encrypt.js" ></script>
+	<script src="jasmine-standalone-5.1.2/src/checkLogin.js" ></script>
+	<!--Assignment 1 JS file-->
+	<script src="assign1.js"></script>
+
+</head>
+<body>
+<main>
+	<h1>Login Page</h1>
+	<div class="login">User Authentication
+<!--==== LOGIN FORM BLOCK ====-->
+		<form method="post" class="login__form">
+			<fieldset class="login__fieldset">
+				<label class="login__label">Username:
+					<input type="text" class="login__txtbox login__name">
+				</label>
+				<label class="login__label">Password:
+					<input type="password" class="login__txtbox login__pass">
+				</label>
+				<button type="submit" class="login__button">Log in</button>
+			</fieldset>
+		</form>
+	</div>
+
+<!--==== OUTPUT BLOCK ====-->	
+	<div class="output">
+
+	</div><!--END output BLOCK-->
+</main>
+
+</body>
+</html>
